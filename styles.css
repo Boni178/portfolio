@@ -1,0 +1,245 @@
+#content-timeline {
+    position: relative;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-left: 2px solid #8238be;
+}
+
+#content  {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+#content::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #8238be;
+    border-radius: 50%;
+}
+#education h1 {
+    padding-right: 40px;
+    text-align: left;
+    margin-left: 40px; 
+    font-size: 2rem; 
+    color: #333; }
+
+
+
+
+#about {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+#download-btn {
+    display: inline-block;
+    background-color: #8238be;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#download-btn:hover {
+    background-color: #5e2a8c;
+}
+
+
+
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+
+}
+#title{
+
+    padding-left: 30px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 30px;
+
+
+
+    padding: 20px; 
+    border: 2px solid #211729; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+
+
+
+
+
+
+
+#content-form {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #8238be;
+    outline: none;
+    box-shadow: 0 0 5px rgba(130, 56, 190, 0.5);
+}
+
+textarea {
+    resize: none;
+  
+}
+
+    #submit-btn {
+        display: inline-block;
+        background-color: #8238be;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #submit-btn:hover {
+        background-color: #5e2a8c;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px; 
+    }
+    
+    #home p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+        line-height: 1.6;
+    }
+
+    #projects{
+        display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 50px;
+    background-color: #f4f4f4;
+    }
+   
+    #box {
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px; 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 30px; 
+        border-top: #8238be 5px solid; 
+        transition: transform 0.3s ease; 
+    }
+     #box p{
+        font-size: 1.1rem;
+        margin: 20px 0;
+        line-height: 1.2;
+        text-align: center; 
+        color: #333; 
+     }
+     #box a{
+        text-decoration: none;
+        color: #8238be;
+        font-weight: bold;
+        transition: color 0.3s ease; 
+        text-align: center; 
+        font-size: 1.2rem; 
+     }
+
+     #footer {
+        background-color: #20013a; 
+        color: white; 
+        text-align: center; 
+        padding: 20px 0; 
+        font-size: 1rem;
+    }
+    
+    #footer p {
+        margin: 0; 
+    }
+
+
+
+    
+        #social {
+        display: flex;
+        gap: 20px;
+        justify-content:center;
+        align-items: center;
+        margin-top: 20px;
+       text-decoration: none;
+       padding: 80px 40px;
+
+
+
+        
+       
+    }
+    
+    #social a {
+        font-size: 30px;
+        color:#8238be;
+        text-decoration: none;
+        transition: color 0.3s ease;
+       
+    }
+    
+    #social a:hover {
+        color:#20013a;
+    }

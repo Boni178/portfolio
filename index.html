@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prac</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; 
+        }
+
+       
+        #header {
+            position: fixed; 
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: #20013a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            z-index: 1000; 
+        }
+
+        #logo {
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #navigation {
+            display: flex;
+            padding-right:20px ;
+        }
+
+        #navigation a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        #navigation a:hover {
+            color: #ddd;
+        }
+
+       
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #home {
+            background: linear-gradient(135deg, #8238be, #c797f7);
+            color: white;
+        }
+
+        #about {
+            background-color: #f4f4f4;
+        }
+
+        #education {
+            background-color: #e3e3e3;
+        }
+
+        #projects {
+            background-color: #d3d3d3;
+        }
+
+        #contact {
+            background-color: #c3c3c3;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <header id="header">
+        <a href="#home" id="logo">Bongani Nyawose</a>
+        <nav id="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+   
+    <section id="home">
+        
+            <h1 id="title">Hello, I'm Bongani Nyawose</h1><br>
+            <p>Welcome to my portfolio! I'm a virtual asistant whose looking to transition into web and mobile app development.
+            Scroll down to know more about me.</p>
+        <br>
+           
+            
+    
+        
+    </section>
+
+    <section id="about">
+<div id="about-content">
+        <h1>About Me</h1> 
+        <p >I’m a passionate tech enthusiast and aspiring mobile app developer,<br> 
+            currently honing my skills in HTML, CSS and UI/UX design.<br>
+             With a background in law, I have a strong analytical mindset and problem-solving<br>
+              abilities that help me approach challenges with a strategic perspective.<br>
+    
+            In addition to my tech journey, I work as a freelance virtual assistant  specializing in graphic design,<br>
+             where I create visually compelling content .<br> 
+             My goal is to blend my creativity with technology to build user-friendly<br>
+              mobile applications that solve real-world problems.
+
+
+              
+    
+        </p>
+        <a href="Downloadable CV.pdf" download id="download-btn">Download My Resume</a>
+        </div>
+    </section>
+
+    <section id="education">
+        <h1 >Education</h1> 
+<br>
+<br>
+
+        <div id="content-timeline">
+        <div id="content">
+    <h4>High School</h4>
+    <p>Matriculated with a Bachelors pass 2019 </p>
+        </div>
+    
+        <div id="content">
+            <h4>University of South Africa(UNISA)</h4>
+    <p>Pursuing a Law degree 2024-2027</p>
+        </div>
+    
+    <div id="content">
+        <h4>ALX virtual assistant Program</h4>
+    <p>Completed in September 2024</p>
+    </div>
+    
+    <div id="content">
+        <h4>PLP Academy</h4>
+    <p>Currently enrolled</p>
+    </div>
+        </div>
+        
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div id="box">
+            <h4>Image Carousel</h4>
+             <p>
+         HTML and CSS code that creates a simple image carousel. 
+
+        </p>
+        <a href="https://github.com/Boni178" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        </div>
+        <div id="box">
+            <h4>PLP projects</h4>
+            <p>
+                All my completed plp assignments
+            </p>
+
+            <a href="https://github.com/Boni178" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        
+<h1 id="title">Contact Me</h1>
+
+
+        <div id="social">
+      
+        <a href="https://github.com/Boni178" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+            <a href="https://www.linkedin.com/in/bongani-nyawose" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+                <a href="https://wa.me/+27658695598" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+</div>
+
+
+        
+        <form id="form" method="post" action="/submit">
+            <div id="content-form">  
+             <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required  >
+            <br><br>   
+        </div>
+            
+        <div id="content-form">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>  
+        </div>
+            
+        <div id="content-form">
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+            <br><br>
+        </div>
+            
+           <div id="content-form">
+            <button type="submit" id="submit-btn" >Submit</button>
+        </div>
+         
+        </form>
+        
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2025 Bongani Nyawose. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
