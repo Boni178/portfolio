@@ -1,36 +1,41 @@
+/* Timeline container styles */
 #content-timeline {
-    position: relative;
+    position: relative; 
     padding: 20px 0;
-    margin: 20px 0;
-    border-left: 2px solid #8238be;
+    margin: 20px 0; 
+    border-left: 2px solid #8238be; 
 }
 
-#content  {
-    margin: 10px 0;
+/* Individual timeline content styles */
+#content {
+    margin: 10px 0; 
     padding-left: 20px;
-    position: relative;
+    position: relative; 
 }
 
+/* Circle indicator for each timeline item */
 #content::before {
-    content: '';
-    position: absolute;
-    left: -6px;
-    top: 5px;
-    width: 12px;
-    height: 12px;
-    background-color: #8238be;
-    border-radius: 50%;
+    content: ''; /* Adds an empty element before each content block */
+    position: absolute; 
+    left: -6px; /* Moves the circle to the left */
+    top: 5px; /* Adjusts the vertical position */
+    width: 12px; 
+    height: 12px; 
+    background-color: #8238be; /* Purple color for the circle */
+    border-radius: 50%; /* Makes the shape a circle */
 }
+/* Education section title styles */
 #education h1 {
-    padding-right: 40px;
-    text-align: left;
+    padding-right: 40px; 
+    text-align: left; 
     margin-left: 40px; 
     font-size: 2rem; 
-    color: #333; }
+    color: #333; 
+}
 
 
 
-
+/* styles about section */
 #about {
     background-color: #f4f4f4;
     padding: 40px 20px;
@@ -42,6 +47,8 @@
     margin: 0 auto;
     text-align: left;
 }
+
+/* styles download button  */
 #download-btn {
     display: inline-block;
     background-color: #8238be;
@@ -53,14 +60,14 @@
     margin-top: 20px;
     transition: background-color 0.3s ease;
 }
-
+/* makes download  button to hover  */
 #download-btn:hover {
     background-color: #5e2a8c;
 }
 
 
 
-
+/* styles contact content  */
 #contact {
     background-color: #f4f4f4;
     padding: 50px 20px;
@@ -69,6 +76,7 @@
     border: none;
 }
 
+/* styles contact me heading */
 #contact h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -83,6 +91,7 @@
     margin-left: 50px;
 }
 
+/* styles the form */
 #form {
     max-width: 600px;
     width: 100%;
@@ -99,23 +108,20 @@
     background-color: #fff; 
 }
 
-
-
-
-
-
-
+/* adds spacin in contact form */
 
 #content-form {
     margin-bottom: 10px;
 }
+
+/* styles the labels in contact form */
 label {
     display: block;
     font-size: 1rem;
     margin-bottom: 5px;
     color: #555;
 }
-
+/* styles the boxes of the input and textarea */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -124,18 +130,18 @@ input, textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
-
+/* highlights the input and textarea */
 input:focus, textarea:focus {
     border-color: #8238be;
     outline: none;
     box-shadow: 0 0 5px rgba(130, 56, 190, 0.5);
 }
-
+/* style for textarea to not change size */
 textarea {
     resize: none;
   
 }
-
+/* styling for submit button */
     #submit-btn {
         display: inline-block;
         background-color: #8238be;
@@ -147,21 +153,23 @@ textarea {
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
-    
+    /* styling for submit button hover */
     #submit-btn:hover {
         background-color: #5e2a8c;
     }
-
+/* styles for home title */
     #home h1 {
         font-size: 2.5rem;
         margin-bottom: 20px; 
     }
-    
+
+/* styles for home paragraph  */
     #home p {
         font-size: 1.2rem;
         margin: 20px 0;
         line-height: 1.6;
     }
+/* styles for projects content */
 
     #projects{
         display: flex;
@@ -170,7 +178,7 @@ textarea {
     padding: 50px;
     background-color: #f4f4f4;
     }
-   
+   /* styles for box content */
     #box {
         width: 300px;
         height: 200px;
@@ -186,6 +194,8 @@ textarea {
         border-top: #8238be 5px solid; 
         transition: transform 0.3s ease; 
     }
+
+/* styles for box description  */
      #box p{
         font-size: 1.1rem;
         margin: 20px 0;
@@ -193,6 +203,8 @@ textarea {
         text-align: center; 
         color: #333; 
      }
+
+/*styles for box link */
      #box a{
         text-decoration: none;
         color: #8238be;
@@ -202,6 +214,7 @@ textarea {
         font-size: 1.2rem; 
      }
 
+/* styles for footer */
      #footer {
         background-color: #20013a; 
         color: white; 
@@ -209,14 +222,14 @@ textarea {
         padding: 20px 0; 
         font-size: 1rem;
     }
-    
+    /* styles for footer paragraph  */
     #footer p {
         margin: 0; 
     }
 
 
 
-    
+    /* styles for social content */
         #social {
         display: flex;
         gap: 20px;
@@ -231,7 +244,8 @@ textarea {
         
        
     }
-    
+
+/* styles for social icon links */
     #social a {
         font-size: 30px;
         color:#8238be;
@@ -239,7 +253,9 @@ textarea {
         transition: color 0.3s ease;
        
     }
-    
+
+/* Changes icon color when you hover above it */
+
     #social a:hover {
         color:#20013a;
     }
