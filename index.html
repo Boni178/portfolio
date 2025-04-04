@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bongani Nyawose Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- Link to Font Awesome icons -->
+   <!-- Inline styling for the page-->
+    <style> 
+        /* styles for the body */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            scroll-behavior: smooth; 
+            scroll-behavior: smooth;  /* creates smooth scrolloing between sections */
         }
 
-       
+        /* styles the header */
         #header {
             position: fixed; 
             width: 100%;
@@ -23,24 +24,24 @@
             left: 0;
             background-color: #20013a;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-between;  /* makes space between navigation and logo */
             align-items: center;
             padding: 15px 20px;
-            z-index: 1000; 
+            z-index: 1000;  /* makes the header stay at the top */
         }
-
+       /* styles the logo */
         #logo {
             font-size: 24px;
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
+        /* styles the navigation  */
         #navigation {
             display: flex;
             padding-right:20px ;
         }
-
+ /* styles the navigation links */
         #navigation a {
             color: white;
             text-decoration: none;
@@ -48,38 +49,38 @@
             font-size: 18px;
             transition: color 0.3s ease;
         }
-
+ /* creates a hover effect and changes the colour of selected item */
         #navigation a:hover {
             color: #ddd;
         }
 
-       
+        /* styles the diffrent sections of the page */
         section {
-            height: 100vh;
+            height: 100vh;  /* makes sure each section covers the full page */
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             padding: 20px;
         }
-
+ /* changes colour of the home section */
         #home {
             background: linear-gradient(135deg, #8238be, #c797f7);
             color: white;
         }
-
+/* changes colour of the about section */
         #about {
             background-color: #f4f4f4;
         }
-
+/* changes colour of the education section */
         #education {
             background-color: #e3e3e3;
         }
-
+/* changes colour of the projects section */
         #projects {
             background-color: #d3d3d3;
         }
-
+/* changes colour of the contact section */
         #contact {
             background-color: #c3c3c3;
         }
@@ -100,7 +101,7 @@
         </nav>
     </header>
 
-   
+    <!-- home page-->
     <section id="home">
         
             <h1 id="title">Hello, I'm Bongani Nyawose</h1><br>
@@ -112,7 +113,7 @@
     
         
     </section>
-
+ <!-- about page-->
     <section id="about">
 <div id="about-content">
         <h1>About Me</h1> 
@@ -130,15 +131,16 @@
               
     
         </p>
-        <a href="Downloadable CV.pdf" download id="download-btn">Download My Resume</a>
+        <a href="Downloadable CV.pdf" download id="download-btn">Download My Resume</a>   <!-- button to download cv-->
         </div>
     </section>
 
+     <!-- education page-->
     <section id="education">
         <h1 >Education</h1> 
 <br>
 <br>
-
+ <!-- content for education timeline-->
         <div id="content-timeline">
         <div id="content">
     <h4>High School</h4>
@@ -162,7 +164,7 @@
         </div>
         
     </section>
-
+ <!-- projects page-->
     <section id="projects">
         <h1>My Projects</h1>
         <div id="box">
@@ -171,7 +173,7 @@
          HTML and CSS code that creates a simple image carousel. 
 
         </p>
-        <a href="https://github.com/Boni178" target="_blank">
+        <a href="https://github.com/Boni178" target="_blank">  <!-- link to github repositories  -->
             <i class="fab fa-github"></i>
         </a>
         </div>
@@ -181,12 +183,14 @@
                 All my completed plp assignments
             </p>
 
-            <a href="https://github.com/Boni178" target="_blank">
+            <a href="https://github.com/Boni178" target="_blank">  <!-- link to github repositories-->
                 <i class="fab fa-github"></i>
             </a>
         </div>
     </section>
 
+    
+ <!-- contact me page-->
     <section id="contact">
         
 <h1 id="title">Contact Me</h1>
@@ -194,19 +198,19 @@
 
         <div id="social">
       
-        <a href="https://github.com/Boni178" target="_blank">
+        <a href="https://github.com/Boni178" target="_blank">  <!-- link to github repositories-->
             <i class="fab fa-github"></i>
         </a>
-            <a href="https://www.linkedin.com/in/bongani-nyawose" target="_blank">
+            <a href="https://www.linkedin.com/in/bongani-nyawose" target="_blank">  <!-- link to linkedin-->
                 <i class="fab fa-linkedin"></i>
             </a>
-                <a href="https://wa.me/+27658695598" target="_blank">
+                <a href="https://wa.me/+27658695598" target="_blank">  <!-- link to my whatsapp number-->
                     <i class="fab fa-whatsapp"></i>
                 </a>
 </div>
 
 
-        
+         <!-- contact form-->
         <form id="form" method="post" action="/submit">
             <div id="content-form">  
              <label for="name">Name:</label>
@@ -236,7 +240,8 @@
         </form>
         
     </section>
-
+    
+ <!-- footer with name and surname-->
     <footer id="footer">
         <p>&copy; 2025 Bongani Nyawose. All rights reserved.</p>
     </footer>
